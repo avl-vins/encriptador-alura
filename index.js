@@ -14,7 +14,6 @@ btnDesencriptar.disabled=true
 let evaluar = ()=>{
     let flag=false
     const reg=/[A-Z\áéíóú]/ //expresion regular analiza si hay mayusculas y vocales acentuadas
-
     if(getText.value!=''){  
         if(!reg.test(getText.value)){
             flag=true
