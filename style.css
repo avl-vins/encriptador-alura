@@ -165,7 +165,7 @@ button{
     
 }
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
     body{
         width: 768px;
         min-height: 100vh;
@@ -224,11 +224,10 @@ button{
    }
     .texto-desencriptado .btn button{
         width: 100%;
-        background-color: red;
         }
 }
 
-@media screen and (max-width:375px) {
+@media (max-width:375px) {
     body{
         width: 375px;
         min-height: 100vh;
@@ -293,7 +292,6 @@ button{
    }
     .texto-desencriptado .btn button{
         width: 100%;
-        background-color: red;
         }
 }
 
